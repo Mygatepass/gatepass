@@ -41,11 +41,19 @@ nav .nav-wrapper {
 nav ul a {
 	color: black;
 }
+nav .login-button input[type='button'] {
+	background: #ffffff;
+	color: #6D0089;
+	border: 2px solid #6D0089;
+	padding: 8px;
+	border-radius: 18px;
+	font-weight: bold;
+}
 .pass-background {
 	background: url("images/slider-background.png");
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 640px;
+	height: 590px;
 	display: inline-block;
 	background-size: cover;
 }
@@ -65,7 +73,7 @@ nav ul a {
 }
 
 .slider--data h2 {
-	font-size: 48px;
+	font-size: 35px;
 	margin-bottom: 0;
 	font-family: RobotoCondensed-Light;
 	text-transform: uppercase;
@@ -73,10 +81,10 @@ nav ul a {
 
 .slider--data h1 {
 	font-weight: bold;
-	font-size: 70px; 
+	font-size: 48px; 
 	margin-top: 0;
 	border-bottom: 1px dotted #603384;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 0px;
 	margin-right: 50px;
@@ -84,28 +92,33 @@ nav ul a {
 .slider--data h6 {
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 22px;
-	margin-bottom: 22px;
+	font-size: 20px;
+	margin-bottom: 15px;
 }
 .slider--img {
 	background: url(images/slider-img.png) no-repeat;
 	height: 590px;
 	position: relative;
 	z-index: 1;
-	margin-left: 35px !important;
+	margin-left: 60px !important;
+	background-size: 380px;
+}
+.slider--action img {
+	height: 40px;
 }
 .slider--data p {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
+	margin-top: 5px;
 }
 
 .slider--section {
-	margin-top: 70px;
+	margin-top: 129px;
 }
 
 .row .slider--section .slider--data {
 	background: rgba(255,255,255,.7);
-	margin-left: -14px;
+	margin-left: -92px;
 	position: relative;
 	z-index: 0;
 	margin-top: 50px;
@@ -117,7 +130,7 @@ nav ul a {
 	height: 350px;
 	width: 400px !important;
 	position: relative;
-	top: 220px;
+	top: 111px;
 }
 .welcome-pass {
 	padding: 100px;
@@ -138,7 +151,7 @@ nav ul a {
 	font-size: 16px;
 	padding-top: 50px;
 }
-.welcome-pass .border-bar, .enable-platform .border-bar{
+.welcome-pass .border-bar, .enable-platform .border-bar, .how-work .border-bar {
 	border-bottom: 5px solid #33A180;
 }
 .how-work {
@@ -147,6 +160,17 @@ nav ul a {
 	background-size: contain;
 	width: 100%;
 	background-repeat: no-repeat;
+}
+.how-heading {
+	text-align: center;
+	position: relative;
+	top: 35px;
+}
+.how-heading h3 {
+	color: #ffffff;
+}
+.enable-platform {
+	margin-top: 60px;
 }
 .enable-platform .welcome-gatepass-platfrom {
 	text-align: center;
@@ -163,13 +187,13 @@ nav ul a {
 .enable-images .laptop {
 	background: url('images/laptop.png') no-repeat;
 	height: 383px;
-	background-size: 95%;
+	background-size: 90%;
 	margin-top: 70px;
 }
 .form-section {
 	background-color: #4EC4A1;
 	border-radius: 10px;
-	padding: 30px !important;
+	padding: 15px !important;
 	position: relative;
 }
 .form-section:after {
@@ -188,6 +212,7 @@ nav ul a {
 .form-section h2 {
 	margin: 0;
 	color: #ffffff;
+	font-size: 35px;
 }
 .form-section .enable-pass {
 	color: #603384;
