@@ -36,6 +36,9 @@ nav .nav-wrapper {
 .brand-logo {
 	color: red
 }
+.nav-wrapper .button-collapse {
+	color: purple;
+}
 .brand-logo img {
 	height: 60px;
 }
