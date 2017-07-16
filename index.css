@@ -38,6 +38,10 @@ nav .nav-wrapper {
 }
 .nav-wrapper .button-collapse {
 	color: purple;
+	
+}
+.nav-wrapper .button-collapse i {
+	font-size: 48px;
 }
 .brand-logo img {
 	height: 60px;
@@ -150,12 +154,11 @@ nav .login-button input[type='button'] {
 	color: #603384;
 	font-size: 48px;
 }
-.welcome-pass span {
+.last-Bold {
 	color: #603384;
 	font-size: 48px;
 	font-weight: bold;
 	padding-left: 12px;
-	text-transform: uppercase;
 }
 .welcome-pass p {
 	font-family: 'Open Sans', sans-serif;
@@ -164,6 +167,9 @@ nav .login-button input[type='button'] {
 }
 .welcome-pass .border-bar, .enable-platform .border-bar, .how-work .border-bar {
 	border-bottom: 5px solid #33A180;
+}
+.enable-platform .last-Bold-getpass {
+	font-weight: bold;
 }
 .how-work {
 	background: url(images/it-works-background.png);
@@ -177,8 +183,13 @@ nav .login-button input[type='button'] {
 	position: relative;
 	top: 35px;
 }
-.how-heading h3 {
+.how-heading, .how-head {
 	color: #ffffff;
+	font-size: 48px;
+}
+.how-heading .last-Bold-works {
+	font-weight: bold;
+	padding-left: 12px;
 }
 .enable-platform {
 	margin-top: 60px;
@@ -225,12 +236,7 @@ nav .login-button input[type='button'] {
 	color: #ffffff;
 	font-size: 35px;
 }
-.form-section .enable-pass {
-	color: #603384;
-	font-weight: bold;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-}
+
 .form-section p {
 	color: #fff;
 	margin: 0;
@@ -286,4 +292,7 @@ nav .login-button input[type='button'] {
 	padding-top: 60px;
 }
 
-
+/*media query*/
+/*@media only screen and (min-width: 360px;) and(max-width: 567) {
+	
+}*/
