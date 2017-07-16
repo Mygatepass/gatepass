@@ -66,6 +66,13 @@ nav .login-button input[type='button'] {
 .welcome-pass {
 	text-align: center;
 }
+.welcome-pass .ai, .welcome-pass .simple-secure {
+	padding: 0;
+}
+.welcome-pass .simple-secure {
+	color: purple;
+	font-size: 18px;
+}
 .slider-wrapper {
 	width: 100%;
 }
@@ -226,10 +233,10 @@ nav .login-button input[type='button'] {
 	margin: 0;
 	font-size: 18px;
 }
-.form-section .input-field label, .form-section .input-field input[type=text]:focus + label {
+.form-section .input-field label,.form-section .input-field input[type=text]:focus + label, .form-section .input-field input[type=tel]:focus + label, .form-section .input-field input[type=email]:focus + label  {
 	color: #fff;
 }
-.form-section .input-field input[type=text] {
+.form-section .input-field input[type=text], .form-section .input-field input[type=tel], .form-section .input-field input[type=email]   {
 	border-bottom: 1px solid #fff;
 }
 .form-section .form-button {
@@ -238,6 +245,7 @@ nav .login-button input[type='button'] {
 	border: none;
 	padding: 12px 35px 12px 35px;
 	margin-left: 10px;
+	outline: none;
 }
 .footer-background {
 	background: url('images/footer-bg.png');
@@ -274,3 +282,5 @@ nav .login-button input[type='button'] {
 	text-align: center;
 	padding-top: 60px;
 }
+
+
