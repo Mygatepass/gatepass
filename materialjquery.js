@@ -13,7 +13,6 @@
  	$('#myButton').click(function(){
     if( $('#name').val() == '' || $('#contact').val() =='' || $('#email').val() ==''){
       alert('Please Enter all the fields');
-        return false;
     }
     else {
     	$('#modal1').modal('open');
