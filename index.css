@@ -304,6 +304,312 @@ nav .login-button input[type='button'] {
 }
 
 /*media query*/
-/*@media only screen and (min-width: 360px;) and(max-width: 567) {
+@media(min-width:768px)and (max-width:991px)
+{
+		.how-heading {
+  position: relative;
+  top: -468px;
+}
+.welcome-pass .border-bar, .enable-platform .border-bar, .how-work .border-bar {
+  border-bottom: 1px solid #33a180;
+  transform: translateX(451px);
+}
+.how-heading h3 {
+ 
+  font-size: 16px;
+  margin: 0;
+}
+.pass-background {
+  background: rgba(0, 0, 0, 0) url("images/slider-background.png") no-repeat scroll 0 0 / cover;
+  
+ 
+}
+.pass-background {
+  height: 248px;
+}
+	.slider--section {
+  margin-top: 20px;
+}
+.slider--img {
+  background: rgba(0, 0, 0, 0) url("images/slider-img.png") no-repeat scroll 0 0 / contain;
+  height: 247px;
+ 
+  
+}
+.row .slider--section .slider--data {
+  margin-left: -87px;
+  margin-top: 30px;
+  padding: 0 0 0 9px;
+}
+.security-guard {
+  text-align: center;
+}
+.security-guard img {
+  height: 195px;
+  position: relative;
+  text-align: center;
+  top: 32px;
+  width: 42%;
+}
+.slider--data h2 {
+ 
+  font-size: 12px;
+  margin: 12px 0 8px;
+ 
+}
+
+.slider--action {
+  margin-bottom: 3px;
+ 
+}
+.slider--data h1 {
+  
+  font-size: 15px;
+ 
+margin:0;
 	
-	}*/
+}
+.slider--data p {
+ 
+  font-size: 10px;
+  margin: 0;
+}
+.slider--data h6 {
+  
+  font-size: 9px;
+
+  margin: 0 0 12px;
+}
+.slider--action {
+  width: 100%;
+}
+.slider--action img {
+  height: 21px;
+}
+
+
+.welcome-pass {
+ margin-top:0;
+  padding:0;
+}
+.welcome-heading {
+ 
+  font-size: 30px;
+ 
+}
+.welcome-pass span {
+ 
+  font-size: 28px;
+ 
+}
+.welcome-pass p {
+ 
+  font-size: 13px;
+  padding:0;
+}
+.enable-platform {
+  margin:0;
+}
+.welcome-gatepass-platfrom {
+ 
+  font-size: 33px;
+}
+
+.form-section h2 {
+  
+  font-size: 20px;
+ 
+}
+.form-section .enable-pass {
+ 
+  font-size: 12px;
+ 
+}
+.enable-platform .enable-images {
+  padding-bottom: 60px;
+  padding-top:26px;
+  
+}
+.col.s12.m5.offset-m1.laptop > img {
+  width: 100%;
+}
+.form-section::after {
+
+  height: 60px;
+ 
+  width: 100%;
+}
+.footer-background {
+  background: rgba(0, 0, 0, 0) url("images/footer-bg.png") repeat scroll 0 0 / 380px auto;
+  padding-top:10px;
+  height:120px;
+}
+.menues ul li {
+ 
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.social img {
+  padding-top: 6px;
+}
+ul:not(.browser-default) {
+ 
+  margin: 0;
+	
+}
+}
+@media(min-width:992px)and (max-width:1200px){
+	
+		.how-heading {
+  position: relative;
+  top: -604px;
+}
+.welcome-pass .border-bar, .enable-platform .border-bar, .how-work .border-bar {
+  border-bottom: 1px solid #33a180;
+  transform: translateX(546px);
+}
+.how-heading h3 {
+ 
+  font-size: 16px;
+  margin: 0;
+}
+.pass-background {
+  background: rgba(0, 0, 0, 0) url("images/slider-background.png") no-repeat scroll 0 0 / cover;
+  
+ 
+}
+.pass-background {
+  height: 248px;
+}
+	.slider--section {
+  margin-top: 20px;
+}
+.slider--img {
+  background: rgba(0, 0, 0, 0) url("images/slider-img.png") no-repeat scroll 0 0 / contain;
+  height: 247px;
+ 
+  
+}
+.row .slider--section .slider--data {
+  margin-left: -161px;
+  margin-top: 30px;
+  padding: 0 0 0 9px;
+}
+.security-guard {
+  text-align: center;
+}
+.security-guard img {
+  height: 195px;
+  position: relative;
+  text-align: center;
+  top: 32px;
+  width: 38%;
+}
+.slider--data h2 {
+ 
+  font-size: 12px;
+  margin: 12px 0 8px;
+ 
+}
+
+.slider--action {
+  margin-bottom: 3px;
+ 
+}
+.slider--data h1 {
+  
+  font-size: 15px;
+ 
+margin:0;
+	
+}
+.slider--data p {
+ 
+  font-size: 10px;
+  margin: 0;
+}
+.slider--data h6 {
+  
+  font-size: 9px;
+
+  margin: 0 0 12px;
+}
+.slider--action {
+  width: 100%;
+}
+.slider--action img {
+  height: 21px;
+}
+
+
+.welcome-pass {
+ margin-top:0;
+  padding:0;
+}
+.welcome-heading {
+ 
+  font-size: 30px;
+ 
+}
+.welcome-pass span {
+ 
+  font-size: 28px;
+ 
+}
+.welcome-pass p {
+ 
+  font-size: 13px;
+  padding:0;
+}
+.enable-platform {
+  margin:0;
+}
+.welcome-gatepass-platfrom {
+ 
+  font-size: 33px;
+}
+
+.form-section h2 {
+  
+  font-size: 20px;
+ 
+}
+.form-section .enable-pass {
+ 
+  font-size: 12px;
+ 
+}
+.enable-platform .enable-images {
+  padding-bottom: 60px;
+  padding-top:26px;
+  
+}
+.col.s12.m5.offset-m1.laptop > img {
+  width: 100%;
+}
+.form-section::after {
+
+  height: 60px;
+ 
+  width: 100%;
+}
+.footer-background {
+  background: rgba(0, 0, 0, 0) url("images/footer-bg.png") repeat scroll 0 0 / 380px auto;
+  padding-top:10px;
+  height:120px;
+}
+.menues ul li {
+ 
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.social img {
+  padding-top: 6px;
+}
+ul:not(.browser-default) {
+ 
+  margin: 0;
+	
+}
+	
+}
