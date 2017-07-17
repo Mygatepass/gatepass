@@ -12,39 +12,41 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<nav>
-				<div class="nav-wrapper">
-					<div class="col m2 offset-m1">
-						<a href="#!" class="brand-logo"><img src="images/logo.png"></a>
-						<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<div class="navbar-fixed">
+				<nav>
+					<div class="nav-wrapper">
+						<div class="col m2 offset-m1">
+							<a href="#!" class="brand-logo"><img src="images/logo.png"></a>
+							<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+						</div>
+
+						<ul class="col m7 right hide-on-med-and-down">
+							<li><a href="index.html">Home</a></li>
+							<li><a href='#welcome-us'>What</a></li>
+							<li><a href="#how-it-works">How It Works</a></li>
+							<li><a href="#platform">Get GatePass</a></li>
+							<!-- <li><a href="#">Contact Us</a></li> -->
+							<li class="login-button"><input type="button" name="" value="Admin Login"></li>
+
+						</ul>
+						<ul class="side-nav" id="mobile-demo">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#welcome-us">What</a></li>
+							<li><a href="#how-it-works">How It Works</a></li>
+							<li><a href="#platform">Get GatePass</a></li>
+							<!-- <li><a href="#">Contact Us</a></li> -->
+							<li class="login-button"><input type="button" name="" value="Admin Login"></li>
+						</ul>
 					</div>
-
-					<ul class="col m7 right hide-on-med-and-down">
-						<li><a href="index.html">Home</a></li>
-						<li><a href='#welcome-us'>What</a></li>
-						<li><a href="#how-it-works">How It Works</a></li>
-						<li><a href="#platform">Get GatePass</a></li>
-						<!-- <li><a href="#">Contact Us</a></li> -->
-						<li class="login-button"><input type="button" name="" value="Admin Login"></li>
-
-					</ul>
-					<ul class="side-nav" id="mobile-demo">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="#welcome-us">What</a></li>
-						<li><a href="#how-it-works">How It Works</a></li>
-						<li><a href="#platform">Get GatePass</a></li>
-						<!-- <li><a href="#">Contact Us</a></li> -->
-						<li class="login-button"><input type="button" name="" value="Admin Login"></li>
-					</ul>
-				</div>
-			</nav>
+				</nav>
+			</div>
 		</div>
 		<div class="row">
 			<div class="slider-wrapper">
 				<div  class="pass-background">
 					<div class='slider--section'>
-						<div class="slider--img col m4 col s12 offset-m1"></div>
-						<div class="slider--data col m3 col s4">
+						<div class="slider--img col m4 col s offset-m1"></div>
+						<div class="slider--data col m3 col s7">
 							<h2>Easy and secure way to create and share</h2>
 							<h1 class="purple--text">GatePass</h1>
 							<p>Now no hassed at Gate,Just-Checked and checkout. Give your guest an awesome experience.</p>
@@ -55,8 +57,8 @@
 							</div>
 
 						</div>
-						<div class="col m3 offset-m1 security-guard">
-							
+						<div class="security-guard">
+							<img src="images/security-guard.png"/>
 						</div>
 					</div>
 				</div>
@@ -65,7 +67,7 @@
 		<div class="row" id="welcome-us">
 			<div class="welcome-pass">
 				<div class="welcome-heading">What is<span class="last-Bold">GatePass</span></div>
-				<div class="col m2 offset-m5 border-bar"></div>
+				<div class="border-bar"></div>
 				<p>GatePass is a state of art technology to provide end to end security solution for any restricted entry points. A sophisticated utility with simplicity. Artificial enabled GatePass helps track every movement at the gate in real time, so you can have peace of mind all the time.</p>
 				<p class="ai">Artificial Intelligence(AI)</p>
 				<p class="simple-secure">--- Simple --- Secure --- Superfast ---</p>
@@ -73,18 +75,19 @@
 		</div>
 
 	</div>
-	<div class="row" id="how-it-works">
+	<div class="row">
 		<div class="how-work">
+			<img src="images/it-works-background.png"/>
 			<div class="how-heading">
-				<div class="how-head">How It<span class="last-Bold-works">Works</span></div>
-				<div class="col s2 offset-s2 col m2 offset-m5  border-bar"></div>
+				How it<span class="last-Bold-works">Works</span>
+				<div class="border-bar"></div>
 			</div>
 		</div>
 	</div>
 	<div class="row" id="platform">
 		<div class="enable-platform">
 			<div class="welcome-gatepass-platfrom">Get <span class="last-Bold-getpass">GatePass</span></div>
-			<div class="col m2 offset-m5 border-bar"></div>
+			<div class="border-bar"></div>
 			<div class="col m12 enable-images">
 				<div class="col m5 offset-m1 laptop">
 
@@ -93,22 +96,25 @@
 					<h2>Reach Out</h2>
 					<hr>
 					<p class="enable-pass">Enable your society on GatePass</p>
-					<div class="input-field col m12">
-						<input id="name" type="text" class="validate" required="tru">
-						<label for="name">Name</label>
-					</div>
-					<div class="input-field col m12">
-						<input id="contact" type="tel" class="validate">
-						<label for="contact">Mobile</label>
-					</div>
-					<div class="input-field col m12">
-						<input id="email" type="email" class="validate">
-						<label for="email" data-error="wrong" data-success="right">Email</label>
-					</div>
+					<form action="#modal1">
+						<div class="input-field col m12 col s12">
+							<input id="name" type="text" class="validate">
+							<label for="name">Name</label>
+						</div>
+						<div class="input-field col m12 col s12">
+							<input id="contact" type="tel" class="validate">
+							<label for="contact">Mobile</label>
+						</div>
+						<div class="input-field col m12 col s12">
+							<input id="email" type="email" class="validate">
+							<label for="email" data-error="wrong" data-success="right">Email</label>
+						</div>
+						<button id="myButton" class="form-button waves-effect waves-light btn" name="action" >Submit</button>
+						<!-- <button class="form-button waves-effect waves-light btn" href="#modal1">Modal</button> -->
 
-					<a class="form-button waves-effect waves-light btn" href="#modal1">Modal</a>
-
-					<!-- Modal Structure -->
+						<!-- Modal Structure -->
+						
+					</form>
 					<div id="modal1" class="modal">
 						<div class="modal-content">
 							<h4>Thank you ! We will get back to you soon.</h4>
@@ -117,7 +123,6 @@
 							<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat close-btn">X</a>
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
@@ -154,5 +159,10 @@
 	<script type="text/javascript" src='jquery.js'></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 	<script type="text/javascript" src='materialjquery.js'></script>
-	</body>
-	</html>
+	<script type="text/javascript">
+		function form_submit() {
+			alert("Thank You ! We will get back to you soon.")
+		}
+	</script>
+</body>
+</html>
