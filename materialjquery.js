@@ -17,6 +17,7 @@
     }
     else {
     	$('#modal1').modal('open');
+    	return false;
     }
 
 });

@@ -350,6 +350,9 @@ nav .login-button input[type='button'] {
 /*media query*/
 
 @media(min-width:768px)and (max-width:991px){
+	.how-work {
+		margin-top: 100px;
+	}
 	.how-heading {
 		position: relative;
 		top: -505px;
@@ -435,7 +438,7 @@ nav .login-button input[type='button'] {
 	.welcome-heading {
 
 		font-size: 30px;
-
+		margin-top: 100px;
 	}
 	.welcome-pass span {
 
