@@ -3,4 +3,5 @@
  	$(".button-collapse").sideNav({
  		menuWidth: 550,
  	});
+ 	$('.modal').modal();
  });

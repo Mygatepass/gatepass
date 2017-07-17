@@ -169,7 +169,7 @@ nav .login-button input[type='button'] {
 	border-bottom: 5px solid #33A180;
 }
 .enable-platform .last-Bold-getpass {
-	font-weight: bold;
+	font-weight: bold ;
 }
 .how-work {
 	background: url(images/it-works-background.png);
@@ -215,7 +215,7 @@ nav .login-button input[type='button'] {
 .form-section {
 	background-color: #4EC4A1;
 	border-radius: 10px;
-	padding: 15px !important;
+	padding: 45px !important;
 	position: relative;
 }
 .form-section:after {
@@ -230,6 +230,12 @@ nav .login-button input[type='button'] {
 	-webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,.5)));
 	left: 0;
 	border-radius: 10px;
+}
+.form-section .enable-pass {
+	color: #603384;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
 }
 .form-section h2 {
 	margin: 0;
@@ -255,6 +261,7 @@ nav .login-button input[type='button'] {
 	padding: 12px 35px 12px 35px;
 	margin-left: 10px;
 	outline: none;
+	line-height: 1;
 }
 .footer-background {
 	background: url('images/footer-bg.png');
@@ -291,8 +298,12 @@ nav .login-button input[type='button'] {
 	text-align: center;
 	padding-top: 60px;
 }
+.close-btn {
+	font-size: 35px;
+	color: red;
+}
 
 /*media query*/
 /*@media only screen and (min-width: 360px;) and(max-width: 567) {
 	
-}*/
+	}*/
