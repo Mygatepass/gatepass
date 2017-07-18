@@ -14,6 +14,7 @@ body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	max-width: 1600px;
 }
 
 .row {
@@ -198,6 +199,13 @@ nav .login-button input[type='button'] {
 .how-heading .last-Bold-works {
 	font-weight: bold;
 	padding-left: 12px;
+}
+.popup {
+	    top: 35% !important;
+    border-radius: 25px;
+}
+.popup h4 {
+	color: purple;
 }
 .enable-platform {
 	margin-top: 60px;
