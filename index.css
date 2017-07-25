@@ -77,7 +77,7 @@ nav .login-button input[type='button'] {
 .welcome-pass {
 	text-align: center;
 }
-.welcome-pass .ai, .welcome-pass .simple-secure {
+.welcome-pass, .welcome-pass .simple-secure {
   padding: 0;
   margin: 10px auto;
 }
