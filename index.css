@@ -387,7 +387,9 @@ position: relative;
 .popup-close:hover { 
 	color: #333; 
 }
-
+#welcome-us, #how-it-works {
+	outline: none;
+}
 
 /*media query*/
 @media (min-width:320px) and (max-width:479px)

@@ -1,4 +1,4 @@
- $(document).ready(function() {
+   $(document).ready(function() {
 
  	$(".button-collapse").sideNav({
  		menuWidth: 550,
@@ -44,6 +44,14 @@
         }, 1000, function() {
           // Callback after animation
           // Must change focus!
+          $('.welcome-pass').css({
+                'position' : 'relative',
+                'top' : '100px'
+              });
+          $('.how-work').css ({
+             'position' : 'relative',
+              'top':'70px'
+          })
           var $target = $(target);
           $target.focus();
           if ($target.is(":focus")) { // Checking if the target was focused
@@ -51,6 +59,7 @@
           } else {
             $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
             $target.focus(); // Set focus again
+            
           };
         });
       }
